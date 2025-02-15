@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-bottom: 2px solid #ddd;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        main {
+    padding: 40px 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    margin: 0 auto; /* Center content horizontally */
+    min-height: 60vh; /* Ensures enough height for vertical centering */
+}
+
+
+        section {
+            display: flex;
+            margin-bottom: 40px;
+            align-items: flex-start;
+            width: 100%;
+        }
+
+        /* Left column for section titles */
+        .section-title {
+            width: 30%;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: left;
+            padding-right: 20px;
+        }
+
+        /* Right column for content */
+        .section-content {
+            width: 70%;
+        }
+
+        h3 {
+            margin: 0;
+            font-weight: 600;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 1px solid #ddd;
+            background-color: #f8f8f8;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            margin-right: 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Patricia Alcayaga</h1>
+        <nav>
+            <a href="{% url 'portfolio:portfolio' %}">Home</a>
+            <a href="{% url 'portfolio:resume' %}">Resume</a>
+            <a href="{% url 'portfolio:projects' %}">Projects</a>
+            <a href="{% url 'portfolio:contact' %}">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="section-title">Work Experience</div>
+            <div class="section-content">
+                <div>
+                    <h3>Intern</h3>
+                    <p>2022</p>
+                    <p>During my internship at the Mayor’s Office in Castillejos Municipal, I assisted with administrative tasks to support municipal operations and public service initiatives. I collaborated with various departments to ensure smooth communication and efficient workflow. Additionally, I contributed to public relations efforts by drafting correspondence and managing schedules. This experience provided me with hands-on exposure to local government operations and community engagement, enhancing my organizational and communication skills.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        
+        <section>
+            <div class="section-title">Education</div>
+            <div class="section-content">
+                <div>
+                    <h3>Bachelor's Degree in Information Technology</h3>
+                    <p>Gordon College | 2022 - Present</p>
+                    <p>Currently pursuing a Bachelor’s degree in Information Technology, focusing on software development, project management, etc. 
+                       Actively participating in group projects and extracurricular activities to enhance leadership, teamwork, and communication skills.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <div class="section-title">Skills & Expertise</div>
+                <div class="section-content">
+                    <ul>
+                        <li>Web Development (HTML, CSS, JavaScript)</li>
+                        <li>Proficiency in Python</li>
+                        <li>Database Management (MySQL, PostgreSQL)</li>
+                        <li>UI/UX Design Basics</li>
+                        <li>Microsoft Office Suite (Word, Excel, PowerPoint)</li>
+                        <li>Team Collaboration and Communication</li>
+                        <li>Problem-Solving and Critical Thinking</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Phone: 0910 062 2645</p>
+        <p>Email: patricia.alcayaga728@gmail.com</p>
+    </footer>
+</body>
+</html>
