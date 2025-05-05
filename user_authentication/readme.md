@@ -16,3 +16,4 @@ This project implements a basic user authentication system using Django REST Fra
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/Pat-77/Alcayaga_Activities_BSIT3C/tree/main/user_authentication
+   cd Alcayaga_Activities_BSIT3C
