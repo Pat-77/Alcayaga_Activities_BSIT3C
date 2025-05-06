@@ -23,5 +23,5 @@ This project provides a user authentication and management system built with Dja
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/Pat-77/Alcayaga_Activities_BSIT3C/tree/main/user_authentication
-   cd your-repo-name
+   git clone https://github.com/Pat-77/Alcayaga_Activities_BSIT3C/tree/main/weather_project
+   cd Alcayaga_Activities_BSIT3C
