@@ -1,4 +1,4 @@
-# Django User Authentication & CRUD API
+# DDjango User Authentication & CRUD API
 
 This project provides a user authentication and management system built with Django REST Framework and JWT (JSON Web Tokens). It supports secure user registration, login, and access to protected routes. Additionally, it implements full CRUD (Create, Read, Update, Delete) functionality for managing user data through authenticated API endpoints.
 
