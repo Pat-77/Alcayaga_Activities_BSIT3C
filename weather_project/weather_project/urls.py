@@ -19,5 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('weather_app.urls')),
+    path('api/auth/', include('users.auth_urls')),  # only auth endpoints
+    path('api/', include('users.crud_urls')),       # only CRUD endpoints
 ]
+
