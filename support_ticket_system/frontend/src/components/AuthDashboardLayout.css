@@ -1,0 +1,87 @@
+/* Shared container styles */
+.auth-form, .dashboard-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Form styling for Login/Register */
+.auth-form input,
+.auth-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Dashboard styling */
+.dashboard-container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-container nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Layout Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav span {
+  font-size: 1rem;
+  color: #333;
+}
+
+nav button {
+  background-color: transparent;
+  color: #dc3545;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+main {
+  padding: 2rem;
+}
